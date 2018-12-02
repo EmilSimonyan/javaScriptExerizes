@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		let array = [12,56,54,32,22,6]
+		function n (num, array) {
+			let sum = 1
+			for (let i = 0; i < array.length; i++) {
+				if (array[i] % num == 0) {
+					// exersize 153,154 == array[i] % num == 2, array[i] % num == 3
+					console.log(array[i])
+					sum += array[i]
+					// exersize 152 == sum *= array[i] 
+				}
+			}
+			console.log(`SUM = ${sum}`)
+		}
+		n(3,array)
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

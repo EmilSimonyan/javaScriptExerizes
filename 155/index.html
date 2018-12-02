@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		let array = [555,12,56,15,30,54,32,22,6]
+		function n (num, array) {
+			let sum = 0
+			for (let i = 0; i < array.length; i++) {
+				if (array[i] > 9 && array[i] < 100 && array[i] % 3 == 0) {
+					// 156 exersize =  array[i] > 9 && array[i] < 100 && array[i] % 3 == 0 && array[i] % 5 == 0
+					console.log(array[i])
+					sum += array[i]
+				}
+			}
+			console.log(`SUM = ${sum}`)
+		}
+		n(3,array)
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
