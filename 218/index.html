@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		let array = [11,52456,4564545,4564,54123,142545,454,54,54,564,564,56,423,123,1]
+		function  ab (array) {
+			let sum = 0
+			for (let i = 0; i < array.length; i++) {
+				if (i % 2 !== 0) {
+					sum += Math.abs(i)
+				}
+			}
+			console.log(sum)
+		}
+		ab(array)
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

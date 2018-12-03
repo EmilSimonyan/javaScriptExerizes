@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		let array = [11,52456,4564545,4564,54123,-142545,454,54,54,-564,564,56,423,123,1]
+		function  ab (array) {
+			let a = []
+			let b = []
+			for (let i =  0; i < array.length; i++) {
+				if (array[i] > 0) {
+					a.push(array[i])
+				} else if (array[i] < 0) {
+					b.push(array[i])
+				}
+			}
+			console.log(`There is ${a.length} Elements > 0 and ${b.length} < 0`)
+		}
+		ab(array)
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
