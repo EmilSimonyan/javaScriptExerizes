@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		let str = 'abcdabb'
+		let symbol = 'a'
+		function findsymbol (str, symbol) {
+			let arrayA = []
+			let strsymbols = str.split('')
+			for (let i = 0; i < strsymbols.length; i++) {
+				if (strsymbols[i] === symbol) {
+					arrayA.push(strsymbols[i])
+				}
+			}
+			return arrayA.length
+		}
+		console.log(findsymbol(str, symbol))
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

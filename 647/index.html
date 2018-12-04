@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		let str = 'anna'
+		function isequal (str) {
+			let res = false
+			if (str === str.split('').reverse().join('')) {
+				res = true
+			}
+			return res
+		}
+		console.log(isequal(str))
+	</script>
+</head>
+<body>
+</body>
+</html>
