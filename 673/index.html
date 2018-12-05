@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		let str = "simonik"
+		let what = 'yan'
+		let inEnd = true
+		function find (str, what, inEnd) {
+			let isFinded = false
+			if (inEnd === true) {
+				let result = str.substr(-3, str.length)
+				if (result === "yan") {
+					isFinded = true
+				}
+				console.log(isFinded)
+			}
+		}
+		find (str, what, inEnd)
+	</script>
+</head>
+<body>
+</body>
+</html>
